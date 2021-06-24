@@ -5,13 +5,13 @@
       <h5 class="text-indigo-10">AirBNB</h5>
     </div>
     <div class="row">
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <p class="text-h6">Special Responsibility</p>
         <a href="#" class="link text-subtitle1 text-grey-9">Careers</a>
         <a href="#" class="link text-subtitle1 text-grey-9">Partners</a>
         <a href="#" class="link text-subtitle1 text-grey-9">Support</a>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <p class="text-h6">Travel Journals</p>
         <a href="#" class="link text-subtitle1 text-grey-9">Snippet 1</a>
         <a href="#" class="link text-subtitle1 text-grey-9">Snippet 2</a>
@@ -19,14 +19,14 @@
         <a href="#" class="link text-subtitle1 text-grey-9">Top Stories</a>
         <a href="#" class="link text-subtitle1 text-grey-9">Most Resent Stories</a>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <p class="text-h6">Top Destinations</p>
         <a href="#" class="link text-subtitle1 text-grey-9">Top Locations</a>
         <a href="#" class="link text-subtitle1 text-grey-9">Location 1</a>
         <a href="#" class="link text-subtitle1 text-grey-9">Location 2</a>
         <a href="#" class="link text-subtitle1 text-grey-9">Location 3</a>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <p class="text-h6">Support</p>
         <a href="#" class="link text-subtitle1 text-grey-9">FAQs</a>
         <a href="#" class="link text-subtitle1 text-grey-9">Finding A Rental</a>

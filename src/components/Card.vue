@@ -38,10 +38,12 @@
           >
           <div>
             <div class="q-mb-xs">Nightly rates from:</div>
-            <span
-              class="q-pa-sm bg-green-6 text-h6 text-weight-bolder text-white rounded-borders"
-              >CAD $2099</span
-            >
+            <div class="q-pa-sm bg-green-6 text-white rounded-borders">
+              <div class="flex items-baseline">
+                <span class="q-mr-xs text-weight-medium">CAD</span>
+                <span class="text-h6 text-weight-medium">$26,290</span>
+              </div>
+            </div>
           </div>
         </div>
       </q-card-section>
@@ -49,7 +51,7 @@
     <div class="p-absolute like">
       <like />
     </div>
-    <div class="p-absolute badge">
+    <div v-if="hotDeal" class="p-absolute badge">
       <q-chip color="white">Hot deal</q-chip>
     </div>
   </q-card>
@@ -60,6 +62,7 @@ import Like from "./Like.vue";
 
 export default {
   name: "Card",
+  props: ["hotDeal"],
   components: { Like }
 };
 </script>

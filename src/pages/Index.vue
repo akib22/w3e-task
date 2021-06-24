@@ -16,7 +16,10 @@
       <div class="rental-info q-py-md">
         <p class="text-subtitle2">Night rates from:</p>
         <div class="row justify-between">
-          <p class="col-6 text-h6 text-weight-medium">CAD $26,290</p>
+          <div class="col-6 flex items-baseline">
+            <span class="q-mr-xs text-weight-medium">CAD</span>
+            <span class="text-h6 text-weight-medium">$26,290</span>
+          </div>
           <p class="col-6 text-h6 text-weight-medium">Min 2 Night Stay</p>
         </div>
       </div>
@@ -80,17 +83,18 @@
         </q-tab-panel>
       </q-tab-panels>
     </div>
-    <!-- <div class="p-absolute suggestion bg-footer">
+    <div class="desktop-hide p-absolute suggestion">
       <suggestion />
-    </div> -->
+    </div>
   </q-page>
 </template>
 
 <script>
 import ImageSlider from "src/components/ImageSlider.vue";
+import Suggestion from "src/components/Suggestions.vue";
 
 export default {
-  components: { ImageSlider },
+  components: { ImageSlider, Suggestion },
   data() {
     return {
       tab: "overview"
@@ -100,8 +104,14 @@ export default {
 </script>
 
 <style scoped>
-.suggestion{
-  top: 100%;
+.suggestion {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  max-width: 410px;
+  bottom: 0;
+  right: 0;
   z-index: 99;
+  background: transparent;
 }
 </style>
